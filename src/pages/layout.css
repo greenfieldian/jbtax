@@ -1,0 +1,209 @@
+@font-face {
+    font-family: Circular;
+    src: url(../fonts/CircularXXWebTrial-Light.woff);
+    font-weight: 300;
+}
+@font-face {
+    font-family: Circular;
+    src: url(../fonts/CircularXXWebTrial-Regular.woff);
+    font-weight: 400;
+}
+@font-face {
+    font-family: Circular;
+    src: url(../fonts/lineto-circular-book-s.subset.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: Circular;
+    src: url(../fonts/lineto-circular-bold-s.subset.ttf);
+    font-weight: 600;
+}
+html, body {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: Circular;
+    font-weight: 500;
+}
+h1 {
+    font-size: 2.85rem;
+}
+h2 {
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+h3 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+input[type="text"], input[type="email"] {
+    padding: 12px;
+    outline: none;
+}
+input[type="submit"], button {
+    padding: 12px;
+    border: none;
+}
+.contact-form label {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.btn-text {
+    font-size: 18px;
+    font-weight: 600 !important;
+    letter-spacing: 1px;
+}
+a {
+    text-decoration: none !important;
+    color: inherit;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    input[type="text"], input[type="email"], input[type="submit"], button {
+        padding: .5rem;
+        outline: none;
+    }
+    .btn-text {
+        font-size: 16px;
+        font-weight: 500 !important;
+        letter-spacing: .5px;
+    }
+}
+
+/* Classes */
+.white {
+    color: #fff;
+}
+.bg-light-blue {
+    background-color: #3F88C5;
+    color: #fff;
+}
+.bg-dark-blue {
+    background-color: #1C3144;
+    color: #fff !important;
+}
+.mw-1200 {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.up {
+    margin-top: 60px;
+}
+.bottom {
+    margin-bottom: 60px;
+}
+.tb-padding {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.text-wrapper p {
+    margin: 1rem 0;
+}
+.title {
+    font-size: 1.125rem;
+}
+.description {
+    font-size: .875rem;
+}
+.outline-btn {
+    border: 2px solid;
+    background: none;
+}
+.-arrow {
+    position: relative;
+    padding-right: 2rem;
+}
+.-arrow:after {
+    position: absolute;
+    right: 10px;
+    content: "\2192";
+    color: #fff;
+    -webkit-transition: right 0.4s, color 120ms;
+    transition: right 0.4s, color 120ms;
+    margin: 0;
+    top: 0;
+}
+.underline {
+    border-bottom: 2px solid;
+}
+/* Classes */
+
+/* Newsletter Signup Component */
+.newsletter-signup form {
+    padding-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.signup-input {
+    margin-bottom: 1rem;
+}
+.newsletter-form-container {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Newsletter Signup Component */
+
+/* Footer */
+footer {
+    font-size: 14px;
+    font-weight: 500;
+    max-width: 746px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Footer */
+
+/* Homepage */
+.hero {
+    background-image: url(../images/hero-background-img.png);
+    background-position: center;
+    height: 50vh;
+    position: relative;
+    color: #fff;
+}
+.hero-text-container {
+    padding-top: 9rem;
+}
+.call-out h4{
+    line-height: 2rem;
+}
+.service-img {
+    min-height: 250px;
+}
+.service-text {
+    padding: 1rem 0;
+}
+
+/* Contact Page */
+.contact-input {
+    margin-bottom: 1rem;
+}
+/* Contact Page */
+
+@media only screen and (min-width: 1200px) {
+    .hero {
+        height: 70vh;
+    }
+}
+/* Homepage */
+
+@media only screen and (min-width: 768px) {
+    .up {
+        margin-top: 100px;
+    }
+    .tb-padding {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+    .component-main-text p{
+        line-height: 2rem;
+        font-size: 1.325rem;
+    }
+    
+}
