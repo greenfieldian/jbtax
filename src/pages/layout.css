@@ -133,6 +133,14 @@ ul {
 }
 /* Classes */
 
+/* Bootstrap */
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/* Bootstrap */
+
 /* Newsletter Signup Component */
 .newsletter-signup form {
     padding-top: 1rem;
@@ -163,8 +171,7 @@ footer {
 .hero {
     background-image: url(../images/hero-background-img.png);
     background-position: center;
-    height: 50vh;
-    position: relative;
+    height: auto;
     color: #fff;
 }
 .hero-text-container {

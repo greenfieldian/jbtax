@@ -11,6 +11,7 @@ import Footer from "../components/footer"
 const IndexPage = () => {
   return (
     <main>
+      <Header />
       <section className="hero">
         <div className="container">
           <div className="row">
