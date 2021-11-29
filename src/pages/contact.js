@@ -3,23 +3,14 @@ import Footer from '../components/footer'
 import Header from '../components/header'
 import NewsletterSignup from "../components/newsletterSignup"
 import { Link } from 'gatsby'
+import Hero from '../components/hero'
 
 export default class Contact extends Component {
     render() {
         return (
             <div>
                 <Header />
-                <section className="hero bottom">
-                    <div className="container">
-                    <div className="row">
-                        <div className="hero-text-container">
-                        <div>
-                            <h1>Contact Us</h1>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </section>
+                <Hero title="Contact Us"/>
                 <div className="container bottom contact-form">
                     <div className="row">
                         <div className="col-sm-12"></div>

@@ -193,6 +193,8 @@ footer {
 /* Homepage */
 .hero {
     background-image: url(../images/hero-background-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
     height: auto;
     color: #fff;
@@ -215,14 +217,33 @@ footer {
 }
 
 /* Contact Page */
+.contact-form{
+    max-width: 947px;
+}
 .contact-input {
     margin-bottom: 1rem;
 }
 /* Contact Page */
 
+@media only screen and (min-width: 1024px) {
+    .hero-text-container {
+        max-width: 60%;
+        padding-top: 12rem;
+        padding-bottom: 9rem;
+    }
+    .newsletter-signup input[type="submit"] {
+        width: 100%;
+    }
+}
+
 @media only screen and (min-width: 1200px) {
     .hero {
         height: 70vh;
+    }
+    .hero-text-container {
+        max-width: 45%;
+        padding-top: 15rem;
+        padding-bottom: 9rem;
     }
 }
 /* Homepage */

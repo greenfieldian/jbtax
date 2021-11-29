@@ -14,16 +14,16 @@ export default function NewsletterSignup() {
                     </div>
                     <div className="col-sm-12 newsletter-form-container">
                         <form className="w-100 row ">
-                           <label for="firstName" className="">
+                           <label for="firstName" className="col-lg">
                                 <input type="text" placeholder="First Name" name="firstName" className="w-100 signup-input"/>
                            </label>
-                           <label for="lastName" className="">
+                           <label for="lastName" className="col-lg">
                                 <input type="text" placeholder="Last Name" name="lastName" className="w-100 signup-input"/>
                            </label>
-                           <label for="firstName" className="">
+                           <label for="firstName" className="col-lg">
                                 <input type="email" placeholder="Email Address" name="email" className="w-100 signup-input"/>
                            </label>
-                           <div className="">
+                           <div className="col-lg">
                                <input type="submit" className="bg-light-blue btn-text"/>
                            </div>
                         </form>
