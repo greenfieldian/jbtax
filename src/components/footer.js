@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 export default function Footer() {
     return (
-    <footer className="tb-padding">
+    <footer className="footer-padding">
         <div className="container">
           <div className="row text-center">
             <div>
