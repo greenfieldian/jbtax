@@ -22,7 +22,7 @@ const IndexPage = () => {
               </div>
               <div>
                 <button className="outline-btn white btn-text">
-                  <Link className="cta -arrow">Let's Talk</Link>
+                  <Link className="cta -arrow" to="/contact">Let's Talk</Link>
                 </button>
               </div>
             </div>

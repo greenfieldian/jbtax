@@ -44,9 +44,16 @@ input[type="submit"], button {
     border: none;
     border-radius: 35px;
 }
+textarea {
+    border-radius: 15px;
+    padding: 14px 20px;
+}
 .contact-form label {
     padding-left: 0 !important;
     padding-right: 0 !important;
+}
+.contact-form input[type="text"] {
+    border: 1px solid #000;
 }
 .btn-text {
     font-size: 18px;
@@ -141,6 +148,10 @@ ul {
     width: 100%;
     z-index: 999;
     background-color: #145593;
+}
+.navbar-collapse {
+    margin-left: auto;
+    float: right;
 }
 /* Bootstrap */
 
