@@ -24,7 +24,7 @@ export default function NewsletterSignup() {
                                 <input type="email" placeholder="Email Address" name="email" className="w-100 signup-input"/>
                            </label>
                            <div className="col-md-3">
-                               <input type="submit" className="bg-light-blue btn-text w-100"/>
+                               <input type="submit" className="bg-light-blue btn-text"/>
                            </div>
                         </form>
                     </div>

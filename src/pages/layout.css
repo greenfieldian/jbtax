@@ -30,7 +30,8 @@ h1 {
 }
 h2 {
     font-weight: 600;
-    font-size: 3rem;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
 }
 h3 {
     font-size: 2rem;
@@ -39,10 +40,13 @@ h3 {
 input[type="text"], input[type="email"] {
     padding: 12px;
     outline: none;
+    border-radius: 35px;
+    border: none;
 }
 input[type="submit"], button {
-    padding: 12px;
+    padding: 12px 30px;
     border: none;
+    border-radius: 35px;
 }
 .contact-form label {
     padding-left: 0 !important;
@@ -98,8 +102,8 @@ ul {
     margin-bottom: 60px;
 }
 .tb-padding {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .text-wrapper p {
     margin: 1rem 0;
@@ -140,6 +144,7 @@ ul {
     position: fixed;
     width: 100%;
     z-index: 999;
+    background-color: #145593;
 }
 /* Bootstrap */
 
@@ -148,6 +153,7 @@ ul {
     padding-top: 1rem;
     margin-left: auto;
     margin-right: auto;
+    width: 90%;
 }
 .signup-input {
     margin-bottom: 1rem;
@@ -159,7 +165,7 @@ ul {
 }
 .component-main-text p {
     font-weight: 600;
-    font-size: 1.4rem;
+    font-size: 1.25rem;
 }
 /* Newsletter Signup Component */
 
