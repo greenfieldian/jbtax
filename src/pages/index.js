@@ -1,17 +1,23 @@
 import * as React from "react"
-import Header from "../components/header"
 import NewsletterSignup from "../components/newsletterSignup"
 import CalltoAction from "../components/callToAction"
 import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
-
+import BlogWidget from "../components/blogWidget"
+import { Helmet } from "react-helmet"
 import "./layout.css"
-import Footer from "../components/footer"
+import Layout from "../components/layout"
+import favicon from '../images/favicon.png'
 
 const IndexPage = () => {
   return (
     <main>
-      <Header />
+      <Layout>
+      <Helmet>
+        <title>Milwaukee Accounting & Tax Firm | JB Tax & Accounting</title>
+        <meta name="description" content="Helmet application" />
+        <link rel="icon" href={favicon} />
+      </Helmet>
       <section className="hero">
         <div className="container">
           <div className="row">
@@ -46,7 +52,7 @@ const IndexPage = () => {
                 <div className="service-img-container">
                   <StaticImage src="../images/payroll.png" alt="Payroll  Image" className="w-100 service-img"/>
                 </div>
-                <div className="service-text">
+                <div className="meta-text">
                   <div className="header">
                     <h3 className="title">Payroll</h3>
                   </div>
@@ -61,7 +67,7 @@ const IndexPage = () => {
                 <div>
                   <StaticImage src="../images/tax-prep.png" alt="Payroll  Image" className="w-100 service-img"/>
                 </div>
-                <div className="service-text">
+                <div className="meta-text">
                   <div className="header">
                     <h3 className="title">Tax Preparation</h3>
                   </div>
@@ -76,7 +82,7 @@ const IndexPage = () => {
                 <div>
                   <StaticImage src="../images/bookkeeping.png" alt="Payroll  Image" className="w-100 service-img"/>
                 </div>
-                <div className="service-text">
+                <div className="meta-text">
                   <div className="header">
                     <h3 className="title">Bookkeeping Oversight</h3>
                   </div>
@@ -91,7 +97,7 @@ const IndexPage = () => {
                 <div>
                   <StaticImage src="../images/financial-reporting.png" alt="Payroll  Image" className="w-100 service-img"/>
                 </div>
-                <div className="service-text">
+                <div className="meta-text">
                   <div className="header">
                     <h3 className="title">Financial Reporting</h3>
                   </div>
@@ -104,9 +110,29 @@ const IndexPage = () => {
           </div>
         </div>
       </section>
+
+      <section className="bg-light-grey tb-padding">
+        <div className="container">
+          <div className="row">
+            <p>At Jaybird Tax & Accounting, we provide more than accounting, bookkeeping and tax services to business in the Milwaukee Metropolitan area. We take a holistic approach to making your small businesses successful. We help you manage cash flow, develop a practical budget and select the entity that will bring the most tax advantages. </p>
+            <p>Our valuable insight will not only allow you to manage your finances better but will guide your business to long-term growth and increased profitability. Discover how a seasoned Milwaukee tax & accounting firm with a solid understanding of how your business operates can develop strategies that will help you achieve your goals.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div className="container">
+          <div className="row">
+            <BlogWidget />
+          </div>
+        </div>
+      </section>
+
       <CalltoAction />
+
       <NewsletterSignup />
-      <Footer />
+
+      </Layout>
     </main>
   )
 }

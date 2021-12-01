@@ -17,6 +17,15 @@ module.exports = {
         path: "./src/images/",
       },
       __key: "images",
+      icon:  `./src/images/bookkeeping.png`
+    },
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `w09bs52i1hjb`,
+        // Learn about environment variables: https://gatsby.dev/env-vars
+        accessToken: `gvAKNiMepOfnTQllkwlR60u0by4v4DA0uMyQLCFPFuA`,
+      },
     },
   ],
 };
