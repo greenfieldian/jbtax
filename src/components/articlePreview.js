@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 
 
 export default ({ article }) => (
-  <article className=" ">
+  <article className="single-blog-item">
       <div>
         <Link to={`/insights/${article.slug}`}>
           <img src={article.featuredImage.file.url} className="w-100"/>
@@ -15,6 +15,11 @@ export default ({ article }) => (
             <Link to={`/insights/${article.slug}`}>{article.title}</Link>
           </h4>
           <div className="article-snippet">{article.snippet.snippet}</div>
+      </div>
+      <div>
+        <button>
+          <Link>Read more</Link>
+        </button>
       </div>
   </article>
 )

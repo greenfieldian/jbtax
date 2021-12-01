@@ -27,23 +27,34 @@ export default class Bookkeeping extends Component {
                         <div className="container">
                             <div className="row">
                                 <div>
+                                    <h2 className="header">Overview</h2>
                                     <p>Jaybird is a different kind of accounting firm, made great by our exceptional talent, fueled by the entrepreneurial spirit and driven to serve our community. We are an agile and collaborative team, always looking for opportunities out of challenges and continually expanding our capabilities in service to you. Our method is to apply fresh thinking, leveraging a wide array of perspectives, to create innovative solutions and grow relationships. We engage with our clients, colleagues and communities so that they thrive – today and into the future. This is what make us different – and makes a difference.</p>
                                     <p>Jaybird is a different kind of accounting firm, made great by our exceptional talent, fueled by the entrepreneurial spirit and driven to serve our community. We are an agile and collaborative team, always looking for opportunities out of challenges and continually expanding our capabilities in service to you.</p>
                                 </div>
                                 <div className="bg-light-grey up tb-padding">
-                                    <ul>
-                                        <li>Quickbooks or other online accounting software setup and support</li>
-                                        <li>Printed checks, pay stubs and direct deposit</li>
-                                        <li>Attendance/time tracking and PTO accrual</li>
-                                        <li>Local, state and federal payroll tax filing</li>
-                                        <li>Certified Payroll</li>
-                                        <li>Billable vs. non-billable hours</li>
-                                        <li>Payroll processing outside regular schedule</li>
-                                        <li>Payroll garnishment accounting</li>
-                                        <li>Quickbooks or other online accounting software setup and support</li>
-                                        <li>Quickbooks or other online accounting software setup and support</li>
+                                    <h3 className="header">Payroll services include:</h3>
+                                    <ul className="d-flex flex-wrap">
+                                        <li className="service-item">Quickbooks or other online accounting software setup and support</li>
+                                        <li className="service-item">Printed checks, pay stubs and direct deposit</li>
+                                        <li className="service-item">Attendance/time tracking and PTO accrual</li>
+                                        <li className="service-item">Local, state and federal payroll tax filing</li>
+                                        <li className="service-item">Certified Payroll</li>
+                                        <li className="service-item">Billable vs. non-billable hours</li>
+                                        <li className="service-item">Payroll processing outside regular schedule</li>
+                                        <li className="service-item">Payroll garnishment accounting</li>
+                                        <li className="service-item">Quickbooks or other online accounting software setup and support</li>
+                                        <li className="service-item">Quickbooks or other online accounting software setup and support</li>
                                     </ul>
                                 </div>
+                                <section className="featured-slider tb-padding">
+                                    <div className="container">
+                                        <div className="row">
+                                            <div className="col text-center">
+                                                <h2 className="header">Related Articles</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
                                 <div className="up">
                                     <div className="d-flex justify-content-between flex-wrap mb-3">
                                         <img src={form1} className="service-form-image mb-3 rounded"/>

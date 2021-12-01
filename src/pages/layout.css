@@ -16,7 +16,7 @@
 html, body {
     padding: 0;
     margin: 0;
-    font-size: 16px;
+    font-size: 1.05rem;
     font-family: "Gotham";
     font-weight: 500;
 }
@@ -26,8 +26,9 @@ h1 {
 }
 h2 {
     font-weight: 600;
-    font-size: 2.5rem;
+    font-size: 2.25rem;
     line-height: 2.5rem;
+    color: #145593;
 }
 h3 {
     font-size: 2rem;
@@ -89,7 +90,7 @@ ul {
     color: #fff;
 }
 .bg-light-grey {
-    background-color: #f0f0f0;
+    background-color: #F6FAFE;
 }
 .bg-light-blue {
     background-color: #0F89AB;
@@ -147,7 +148,17 @@ ul {
 .meta-text {
     padding: 1rem 0;
 }
-
+.service-meta-text {
+    padding: 15px 20px;
+    background-color: #145593;
+    color: #fff;
+}
+.header::after {
+    content: '';
+    border-bottom: 3px solid #145593;
+    width: 200px;
+    display: block;
+  }
 /* Classes */
 
 /* Bootstrap */
@@ -190,6 +201,15 @@ ul {
 }
 /* Newsletter Signup Component */
 
+/* Article Preview */
+.single-blog-item {
+    padding: 20px 15px;
+    box-shadow: #dad9d5 0px 0px 14px 0px;
+    margin-bottom: 20px;
+    background: white;
+}
+/* Article Preview */
+
 /* Footer */
 footer {
     font-size: 14px;
@@ -226,6 +246,9 @@ footer {
 .service-img {
     min-height: 250px;
 }
+.home-service-item {
+    box-shadow: #0b558c80 0px 0px 10px 0px;
+}
 /* Homepage */
 
 /* About Page */
@@ -260,6 +283,9 @@ footer {
     list-style-type: disc !important;
     overflow: visible;
     padding-left: 1rem;
+}
+.service-item {
+    flex-basis: 100%;
 }
 .sidebar-container {
     display: none;

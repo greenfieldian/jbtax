@@ -27,9 +27,9 @@ export default function BlogWidget() {
   `)
 
   return (
-    <div className='bite-size-widget widget-container tb-padding'>
-      <div className="text-center">
-        <h3>Recent Insights</h3>
+    <div className='bite-size-widget widget-container tb-padding container'>
+      <div className="row">
+        <h3 className="header text-center">Recent Insights</h3>
       </div>
       <div className="d-flex flex-wrap justify-content-between">
       {data.allContentfulBlogPost.edges.map(( {node} ) => {

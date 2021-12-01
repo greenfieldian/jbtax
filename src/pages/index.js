@@ -44,16 +44,16 @@ const IndexPage = () => {
           </div>
         </div>
       </section>
-      <section className="up">
+      <section className="up tb-padding">
         <div className="container">
           <div className="row">
-            <div className="col-sm-12 col-md-6 col-lg-3">
-              <div>
+            <div className="col-sm-12 col-md-6 col-lg-3 mb-4">
+              <div className="home-service-item">
                 <div className="service-img-container">
                   <StaticImage src="../images/payroll.png" alt="Payroll  Image" className="w-100 service-img"/>
                 </div>
-                <div className="meta-text">
-                  <div className="header">
+                <div className="service-meta-text">
+                  <div>
                     <h3 className="title">Payroll</h3>
                   </div>
                   <div>
@@ -62,13 +62,13 @@ const IndexPage = () => {
                 </div>
               </div>
             </div>
-            <div className="col-sm-12 col-md-6 col-lg-3">
-              <div>
+            <div className="col-sm-12 col-md-6 col-lg-3 mb-4">
+              <div className="home-service-item">
                 <div>
                   <StaticImage src="../images/tax-prep.png" alt="Payroll  Image" className="w-100 service-img"/>
                 </div>
-                <div className="meta-text">
-                  <div className="header">
+                <div className="service-meta-text">
+                  <div>
                     <h3 className="title">Tax Preparation</h3>
                   </div>
                   <div>
@@ -77,13 +77,13 @@ const IndexPage = () => {
                 </div>
               </div>
             </div>
-            <div className="col-sm-12 col-md-6 col-lg-3">
-              <div>
+            <div className="col-sm-12 col-md-6 col-lg-3 mb-4">
+              <div className="home-service-item">
                 <div>
                   <StaticImage src="../images/bookkeeping.png" alt="Payroll  Image" className="w-100 service-img"/>
                 </div>
-                <div className="meta-text">
-                  <div className="header">
+                <div className="service-meta-text">
+                  <div>
                     <h3 className="title">Bookkeeping Oversight</h3>
                   </div>
                   <div>
@@ -92,13 +92,13 @@ const IndexPage = () => {
                 </div>
               </div>
             </div>
-            <div className="col-sm-12 col-md-6 col-lg-3">
-              <div>
+            <div className="col-sm-12 col-md-6 col-lg-3 mb-4">
+              <div className="home-service-item">
                 <div>
                   <StaticImage src="../images/financial-reporting.png" alt="Payroll  Image" className="w-100 service-img"/>
                 </div>
-                <div className="meta-text">
-                  <div className="header">
+                <div className="service-meta-text">
+                  <div>
                     <h3 className="title">Financial Reporting</h3>
                   </div>
                   <div>

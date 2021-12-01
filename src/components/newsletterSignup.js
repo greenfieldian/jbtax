@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function NewsletterSignup() {
     return (
-        <section className="newsletter-signup bg-dark-blue tb-padding up">
+        <section className="newsletter-signup bg-dark-blue tb-padding">
             <div className="container">
                 <div className="row text-center mw-1200">
                     <div className="col-sm-12">
