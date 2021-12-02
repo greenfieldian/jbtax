@@ -28,7 +28,6 @@ h2 {
     font-weight: 600;
     font-size: 2.25rem;
     line-height: 2.5rem;
-    color: #145593;
 }
 h3 {
     font-size: 2rem;
@@ -44,7 +43,7 @@ input[type="text"], input[type="email"] {
     border: none;
 }
 input[type="submit"], button {
-    padding: 12px 30px;
+    padding: 8px 25px;
     border: none;
     border-radius: 35px;
 }
@@ -99,6 +98,9 @@ ul {
 .bg-dark-blue {
     background-color: #145593;
     color: #fff !important;
+}
+.color-blue {
+    color: #145593;
 }
 .mw-1200 {
     max-width: 900px;
@@ -158,7 +160,18 @@ ul {
     border-bottom: 3px solid #145593;
     width: 200px;
     display: block;
+    margin-bottom: 1rem;
   }
+
+.header-center::after {
+    content: '';
+    border-bottom: 3px solid #145593;
+    width: 200px;
+    display: block;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
 /* Classes */
 
 /* Bootstrap */
@@ -177,6 +190,9 @@ ul {
 }
 .navbar-dark .navbar-nav .nav-link {
     color: #fff;
+}
+.logo {
+    height: 50px;
 }
 /* Bootstrap */
 
@@ -264,6 +280,11 @@ footer {
 .contact-input {
     margin-bottom: 1rem;
 }
+@media only screen and (min-width: 1024px) {
+    .contact-input {
+        flex-basis: 48%;
+    }
+}
 /* Contact Page */
 
 /* Blog Post */
@@ -282,16 +303,43 @@ footer {
 .service-page-container ul {
     list-style-type: disc !important;
     overflow: visible;
-    padding-left: 1rem;
+    padding-left: 40px;
+}
+.service-page-container .article-list {
+    list-style-type: none !important;
+    padding-left: 0;
+}
+.service-item-list {
+    padding-left: 40px;
 }
 .service-item {
     flex-basis: 100%;
+    line-height: 1.75;
 }
-.sidebar-container {
-    display: none;
+.service-form-container {
+
 }
 .service-form-image {
     width: 48%;
+}
+@media only screen and (min-width: 768px) {
+    .service-item-list {
+        justify-content: space-between;
+    }
+    .service-item {
+        flex-basis: 48%;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .service-form-container {
+        justify-content: space-between;
+    }
+    .service-form-item {
+        flex-basis: 48%;
+    }
+    .service-form-image {
+        
+    }
 }
 /* Services Page */
 

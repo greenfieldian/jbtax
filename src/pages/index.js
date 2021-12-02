@@ -114,6 +114,11 @@ const IndexPage = () => {
       <section className="bg-light-grey tb-padding">
         <div className="container">
           <div className="row">
+            <h3 className="color-blue">Milwaukee Accounting & Tax Firm</h3>
+          </div>
+        </div>
+        <div className="container">
+          <div className="row">
             <p>At Jaybird Tax & Accounting, we provide more than accounting, bookkeeping and tax services to business in the Milwaukee Metropolitan area. We take a holistic approach to making your small businesses successful. We help you manage cash flow, develop a practical budget and select the entity that will bring the most tax advantages. </p>
             <p>Our valuable insight will not only allow you to manage your finances better but will guide your business to long-term growth and increased profitability. Discover how a seasoned Milwaukee tax & accounting firm with a solid understanding of how your business operates can develop strategies that will help you achieve your goals.</p>
           </div>

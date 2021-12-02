@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Form() {
     return (
-        <form className="w-100 row mx-auto">
+        <form className="w-100 row mx-auto d-flex justify-content-between">
             <label className="contact-input">
                 <input type="text" placeholder="First Name" className="col-sm-12 w-100"/>
             </label>
@@ -21,7 +21,7 @@ export default function Form() {
             <label className="contact-input">
                 <input type="text" placeholder="Subject" className="col-sm-12 w-100"/>
             </label>
-            <label className="contact-input">
+            <label className="">
                 <textarea rows="10" className="w-100" placeholder="Message"/>
             </label>
             <label>

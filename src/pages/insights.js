@@ -17,10 +17,10 @@ class Insights extends React.Component {
         <div style={{ background: '#fff' }} className="container">
           <div className="">
             {/*<h2 className="section-headline">Recent articles</h2>*/}
-            <ul className="article-list">
+            <ul className="article-list row">
               {posts.map(({ node }) => {
                 return (
-                  <li key={node.slug} className="blog-item">
+                  <li key={node.slug} className="blog-item col-sm-12 col-md-6 col-lg-4">
                     <ArticlePreview article={node} />
                   </li>
                 )

@@ -29,12 +29,14 @@ export default function BlogWidget() {
   return (
     <div className='bite-size-widget widget-container tb-padding container'>
       <div className="row">
-        <h3 className="header text-center">Recent Insights</h3>
+        <h3 className="header-center text-center color-blue">Recent Insights</h3>
       </div>
-      <div className="d-flex flex-wrap justify-content-between">
+      <div className="row">
       {data.allContentfulBlogPost.edges.map(( {node} ) => {
         return (
-          <ArticlePreview article={node} />
+          <div className="col-sm-12 col-md-6 col-lg-4">
+              <ArticlePreview article={node} />
+          </div>
           )
         })}
       </div>

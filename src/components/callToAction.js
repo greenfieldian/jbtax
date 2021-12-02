@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function CalltoAction() {
     return (
-        <section className="bg-light-blue tb-padding up">
+        <section className="bg-light-blue tb-padding">
             <div className="container">
                 <div className="row mw-1200">
                     <div className="col-sm-12 text-center">
