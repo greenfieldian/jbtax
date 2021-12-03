@@ -102,7 +102,7 @@ const IndexPage = () => {
                     <h3 className="title">Financial Reporting</h3>
                   </div>
                   <div>
-                    <p className="description">We work closely with your key personnel to develop and finalize accurate and timely financial statements.</p>
+                    <p className="description">We work closely with your key personnel to develop and finalize accurate and financial statements that help you make timely business decisions.</p>
                   </div>
                 </div>
               </div>

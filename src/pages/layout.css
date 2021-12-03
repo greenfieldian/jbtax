@@ -190,9 +190,16 @@ ul {
 }
 .navbar-dark .navbar-nav .nav-link {
     color: #fff;
+    font-size: 14px;
 }
 .logo {
     height: 50px;
+}
+@media only screen and (min-width: 1024px) {
+    .nav-link {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
 }
 /* Bootstrap */
 
@@ -355,9 +362,6 @@ footer {
 }
 
 @media only screen and (min-width: 1200px) {
-    .hero {
-        height: 70vh;
-    }
     .hero-text-container {
         max-width: 45%;
         padding-top: 15rem;

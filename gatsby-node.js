@@ -61,7 +61,7 @@ exports.createPages = ({ graphql, actions }) => {
         const pages = result.data.allContentfulServicePage.edges
         pages.forEach(page => {
           createPage({
-            path: `/services/${page.node.slug}`,
+            path: `/services/${page.node.slug}/`,
             component: servicePage,
             context: {
               slug: page.node.slug,

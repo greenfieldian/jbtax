@@ -115,7 +115,7 @@ class ServicePageTemplate extends Component {
 export default ServicePageTemplate
 
 export const pageQuery = graphql`
-  query servicesBlogQueryAndServiceQuery($title: String) {
+  query servicesBlogQueryAndServiceQuery($title: String, $slug: String!) {
     allContentfulBlogPost(filter: {category: {title: {eq: $title}}}) {
       edges {
         node {
@@ -133,7 +133,7 @@ export const pageQuery = graphql`
       }
     }
 
-    contentfulServicePage {
+    contentfulServicePage(slug: { eq: $slug }) {
         title
         includedServices
         overviewText {
