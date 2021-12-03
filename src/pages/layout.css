@@ -82,6 +82,9 @@ ul {
         font-weight: 500 !important;
         letter-spacing: .5px;
     }
+    hr {
+        display: none;
+    }
 }
 
 /* Classes */

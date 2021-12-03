@@ -43,7 +43,7 @@ class ServicePageTemplate extends Component {
                                 <div className="bg-light-grey up tb-padding">
                                     <div className="container">
                                         <div className="row">
-                                            <h3 className="color-blue mb-4">Payroll services include:</h3>
+                                            <h3 className="color-blue mb-4"><span>{pages.title}</span> Services Include:</h3>
                                             <ul className="d-flex flex-wrap service-item-list">
                                                 {pages.includedServices.map(( children ) => {
                                                     return (
