@@ -18,14 +18,14 @@ export default function Header() {
       
     </Nav>
     <Nav>
-      <Nav.Link href="/about">About Us</Nav.Link>
+      {/*<Nav.Link href="/about">About Us</Nav.Link>
       <NavDropdown title="Accounting Services" id="collasible-nav-dropdown">
         <NavDropdown.Item href="/services/payroll">Payroll</NavDropdown.Item>
         <NavDropdown.Item href="/services/tax-preparation">Tax Preparation</NavDropdown.Item>
         <NavDropdown.Item href="/services/bookkeeping-oversight">Bookkeeping Oversight</NavDropdown.Item>
         <NavDropdown.Item href="/services/financial-reporting">Financial Reporting</NavDropdown.Item>
       </NavDropdown>
-    <Nav.Link href="/insights">Insights</Nav.Link>
+    <Nav.Link href="/insights">Insights</Nav.Link>*/}
       <Nav.Link href="/contact">Contact Us</Nav.Link>
     </Nav>
   </Navbar.Collapse>

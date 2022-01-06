@@ -125,13 +125,13 @@ const IndexPage = () => {
         </div>
       </section>
 
-      <section>
+        {/*<section>
         <div className="container">
           <div className="row">
             <BlogWidget />
           </div>
         </div>
-      </section>
+      </section>*/}
 
       <CalltoAction />
 
