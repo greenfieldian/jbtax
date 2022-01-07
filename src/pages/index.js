@@ -129,7 +129,6 @@ const IndexPage = () => {
         <div className="container">
           <div className="row">
             <BlogWidget />
-
           </div>
         </div>
       </section>
