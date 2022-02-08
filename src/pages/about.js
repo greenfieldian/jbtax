@@ -13,24 +13,37 @@ export default class About extends Component {
             <div>
                 <Layout>
                     <Hero title="About Us"/>
+                    <section className="">
+                        <div className="container">
+                        <div className="row">
+                            <h3 className="color-blue">Milwaukee Accounting & Tax Firm</h3>
+                        </div>
+                        </div>
+                        <div className="container">
+                        <div className="row">
+                            <p>At Jaybird Tax & Accounting, we provide more than accounting, bookkeeping and tax services to business in the Milwaukee Metropolitan area. We take a holistic approach to making your small businesses successful. We help you manage cash flow, develop a practical budget and select the entity that will bring the most tax advantages. </p>
+                            <p>Our valuable insight will not only allow you to manage your finances better but will guide your business to long-term growth and increased profitability. Discover how a seasoned Milwaukee tax & accounting firm with a solid understanding of how your business operates can develop strategies that will help you achieve your goals.</p>
+                        </div>
+                        </div>
+                    </section>
                     <section>
                         <div className="">
                             <div className="">
                                 <div>
                                     <div className="container">
-                                        <div className="row">
+                                        {/*<div className="row">
                                             <div className="mb-4">
                                                 <h3 className="color-blue header">Overview</h3>
                                             </div>
                                             <p>Jaybird is a different kind of accounting firm, made great by our exceptional talent, fueled by the entrepreneurial spirit and driven to serve our community. We are an agile and collaborative team, always looking for opportunities out of challenges and continually expanding our capabilities in service to you.</p>
                                             <p>Our method is to apply fresh thinking, leveraging a wide array of perspectives, to create innovative solutions and grow relationships. We engage with our clients, colleagues and communities so that they thrive – today and into the future. This is what make us different – and makes a difference.</p>
-                                        </div>
+                                        </div>*/}
                                     </div>
                                     <div className="bg-light-grey tb-padding up">
                                         <div className="container">
                                             <div className="row">
                                                 <div className="mb-4">
-                                                    <h3 className="color-blue">Our Team</h3>
+                                                    <h3 className="color-blue">Meet Our Team</h3>
                                                 </div>
                                                 <div className="col-sm-12 col-md-5 col-lg-4">
                                                     <h4>John Smith</h4>

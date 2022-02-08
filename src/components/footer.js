@@ -16,7 +16,15 @@ export default function Footer() {
                 </ul>
               </div>
               <div className="footer-lower">
-                <span>© Jaybird Tax 2021</span>
+                <div>
+                  <span>JB Tax and Accounting of Wisconsin, Inc.</span><br />
+                  <span>10721 W. Capitol Drive Suite 105</span><br />
+                  <span>Wauwatosa, WI 53222</span><br />
+                  <span>Call us at (414) 885-0110</span>
+                </div>
+                <div>
+                  <span>© JB Tax and Accounting of Wisconsin, Inc. 2022</span>
+                </div>
               </div>
             </div>
           </div>

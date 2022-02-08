@@ -21,7 +21,7 @@ export default class Contact extends Component {
                                     <h3>Have a question? Ask our team.</h3>
                                 </div>
                                 <div>
-                                    <p>Please complete the following form so we can get a better understanding of your needs.</p>
+                                    <p>Please give us a call to set up an appointment or ask your questions below.</p>
                                 </div>
                             </div>
                             <Form />

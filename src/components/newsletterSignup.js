@@ -9,7 +9,7 @@ export default function NewsletterSignup() {
                     <div className="col-sm-12">
                         <div className="text-wrapper component-main-text">
                             <h3>Stay Connected</h3>
-                            <p>Get the latest news, financial management trends, emerging economic relief programs, legislation/tax updates, upcoming webinars and events delivered to your inbox.</p>
+                            <p>Sign up for our periodic newsletter to stay up to date on all new blog posts, tax updates, and financial tips to expand your knowledge base and maximize your profitability.</p>
                         </div>
                     </div>
                     <div className="col-sm-12 newsletter-form-container">

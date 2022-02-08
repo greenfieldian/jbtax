@@ -29,7 +29,7 @@ export default function BlogWidget() {
   return (
     <div className='bite-size-widget widget-container tb-padding container'>
       <div className="row">
-        <h3 className="header-center text-center color-blue">Recent Insights</h3>
+        <h3 className="header-center text-center color-blue">Dive deeper into many financial topics in our blog</h3>
       </div>
       <div className="row">
       {data.allContentfulBlogPost.edges.map(( {node} ) => {

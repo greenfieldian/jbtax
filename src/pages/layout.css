@@ -1,15 +1,15 @@
 @font-face {
-    font-family: Gotham;
-    src: url(../fonts/Gotham-Book.woff);
+    font-family: Gotham Book;
+    src: url(../fonts/Gotham-Book.ttf);
     font-weight: 500;
 }
 @font-face {
-    font-family: Gotham;
+    font-family: Gotham Bold;
     src: url(../fonts/Gotham-Bold.ttf);
     font-weight: 600;
 }
 @font-face {
-    font-family: Gotham;
+    font-family: Gotham Black;
     src: url(../fonts/Gotham-Black.ttf);
     font-weight: 700;
 }
@@ -17,12 +17,13 @@ html, body {
     padding: 0;
     margin: 0;
     font-size: 1.05rem;
-    font-family: "Gotham";
+    font-family: "Gotham Book";
     font-weight: 500;
 }
 h1 {
-    font-size: 2.55rem;
+    font-size: 3.55rem;
     font-weight: 600;
+    font-family: "Gotham Black";
 }
 h2 {
     font-weight: 600;
@@ -175,6 +176,9 @@ ul {
     margin-left: auto;
     margin-right: auto;
 }
+.cta {
+    line-height: 18px;
+}
 /* Classes */
 
 /* Bootstrap */
@@ -261,7 +265,7 @@ footer {
 }
 .hero-text-container {
     padding-top: 9rem;
-    padding-bottom: 6rem;
+    padding-bottom: 4rem;
 }
 .hero-text-container h1 {
     margin-bottom: 1rem;
